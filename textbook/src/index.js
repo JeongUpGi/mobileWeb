@@ -4,12 +4,11 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import App from "./Client/App";
-import DialogList from "./Chapter9/Specialization/DialogList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <DialogList />
+    <App />
   </React.StrictMode>
 );
 

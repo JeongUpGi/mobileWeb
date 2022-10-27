@@ -40,10 +40,10 @@ app.get("/", mainPage);
 app.get("/users", listUsers);
 app.post("/users", addUser);
 // 웹서버 가동
-app.listen(65010, () => {
+app.listen(65020, () => {
   // REST API 바인딩 (첫페이지) // REST API 바인딩 (회원목록) // REST API 바인딩 (회원가입)
   console.log("----------------------------------");
   console.log("(리액트 연동용) 웹서버 실행중 ... ");
-  console.log("접속주소: http://localhost:65010/ ");
+  console.log("접속주소: http://localhost:65020/ ");
   console.log("----------------------------------");
 });
