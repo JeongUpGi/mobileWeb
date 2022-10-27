@@ -4,12 +4,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import App from "./Client/App";
-import PassingCount from "./Chapter9/PassingCount/PassingCount";
+import DialogList from "./Chapter9/Specialization/DialogList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PassingCount />
+    <DialogList />
   </React.StrictMode>
 );
 
